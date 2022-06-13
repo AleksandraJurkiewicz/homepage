@@ -1,0 +1,39 @@
+.container {
+    overflow-x: auto;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+.table__cell {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 7px;
+}
+
+.table__header {
+    background-color: rgb(78, 208, 208);
+}
+
+.table__caption {
+    background-color: rgb(35, 153, 153);
+    border-bottom: 0px;
+}
+
+.table__row:nth-child(even) {
+    background: rgb(167, 226, 232);
+}
+
+.table__row:nth-child(odd) {
+    background: rgb(219, 255, 255);
+}
+
+.table__row:hover {
+    background: rgb(113, 197, 207)
+}

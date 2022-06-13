@@ -1,0 +1,11 @@
+.introduction {
+    padding-top: 10px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+.introduction__important {
+    color: crimson;
+    font-weight: bold;
+}

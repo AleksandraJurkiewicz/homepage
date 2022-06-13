@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+.body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    max-width: 900px;
+
+    margin: auto;
+    background-color: rgb(195, 227, 230);
+    
+    padding-bottom: 30px;
+}
+
+.article__header {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.article {
+    margin-bottom: 50px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.goBack {
+    color: rgb(209, 244, 248);
+    background-color: rgb(17, 53, 56);
+    text-decoration: none;
+    padding: 5px 10px;
+}
