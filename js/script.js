@@ -1,14 +1,13 @@
 {
     const welcome = () => {
-        console.log("Siemanko!")
-    }
+        console.log("Siemanko!");
+    };
 
     const toggleBackground = () => {
         const body = document.querySelector(".body");
         const themeName = document.querySelector(".themeName");
         body.classList.toggle("dark");
-        themeName.innerText =
-            body.classList.contains("dark") ? "jasny" : "ciemny";
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
     };
 
     const init = () => {
@@ -16,7 +15,7 @@
         button.addEventListener("click", toggleBackground);
 
         welcome();
-    }
+    };
 
-    init()
+    init();
 }
