@@ -10,19 +10,16 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/books.css" rel="stylesheet">
-    <link href="css/games.css" rel="stylesheet">
     <link href="css/introduction.css" rel="stylesheet">
     <link href="css/navigation.css" rel="stylesheet">
     <link href="css/table.css" rel="stylesheet">
-    <link href="css/travels.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <title>Moja pierwsza strona vol.2</title>
 </head>
 
-<body class="body">
+<body class="body js-body">
     <header class="header">
         <img class="header__image" src="images/Ola.jfif" alt="Aleksandra Jurkiewicz" style="float:right">
         <h1>Znowu trochę o mnie &#128522;</h1>
@@ -43,18 +40,18 @@
     <section id="books" class="section section--books">
         <div class="container">
             <table class="table">
-                <caption class="table__cell table__caption">
+                <caption class="table__caption">
                     <h2>Moje ulubione książki</h2>
                 </caption>
                 <tr class="table__row">
-                    <th class="table__cell table__header" scope="col">Tytuł</th>
-                    <th class="table__cell table__header" scope="col">Autor</th>
-                    <th class="table__cell table__header" scope="col">Rok pierwszego wydania</th>
-                    <th class="table__cell table__header" scope="col">Rok pierwszego wydania polskiego</th>
-                    <th class="table__cell table__header" scope="col">Nazwa serii</th>
+                    <th class="table__header" scope="col">Tytuł</th>
+                    <th class="table__header" scope="col">Autor</th>
+                    <th class="table__header" scope="col">Rok pierwszego wydania</th>
+                    <th class="table__header" scope="col">Rok pierwszego wydania polskiego</th>
+                    <th class="table__header" scope="col">Nazwa serii</th>
                 </tr>
                 <tr class="table__row">
-                    <th class="table__cell table__header" scope="row">"Harry Potter i Komnata Tajemnic"</th>
+                    <th class="table__header" scope="row">"Harry Potter i Komnata Tajemnic"</th>
                     <td class="table__cell">J.K. Rowling</td>
                     <td class="table__cell">1998</td>
                     <td class="table__cell">2000</td>
@@ -62,7 +59,7 @@
                 </tr>
 
                 <tr class="table__row">
-                    <th class="table__cell table__header" scope="row">"Rywalki"</th>
+                    <th class="table__header" scope="row">"Rywalki"</th>
                     <td class="table__cell">Kiera Cass</td>
                     <td class="table__cell">2012</td>
                     <td class="table__cell">2014</td>
@@ -70,7 +67,7 @@
                 </tr>
 
                 <tr class="table__row">
-                    <th class="table__cell table__header" scope="row">"Będziesz tam?"</th>
+                    <th class="table__header" scope="row">"Będziesz tam?"</th>
                     <td class="table__cell">Gulliame Musso</td>
                     <td class="table__cell">2006</td>
                     <td class="table__cell">2008</td>
@@ -78,7 +75,7 @@
                 </tr>
 
                 <tr class="table__row">
-                    <th class="table__cell table__header" scope="row">"Miasto Kości"</th>
+                    <th class="table__header" scope="row">"Miasto Kości"</th>
                     <td class="table__cell">Cassandra Clare</td>
                     <td class="table__cell">2007</td>
                     <td class="table__cell">2009</td>
@@ -86,7 +83,7 @@
                 </tr>
 
                 <tr class="table__row">
-                    <th class="table__cell table__header" scope="row">"Czerwona królowa"</th>
+                    <th class="table__header" scope="row">"Czerwona królowa"</th>
                     <td class="table__cell">Victoria Aveyard</td>
                     <td class="table__cell">2015</td>
                     <td class="table__cell">2015</td>
@@ -94,7 +91,7 @@
                 </tr>
 
                 <tr class="table__row">
-                    <th class="table__cell table__header" scope="row">"Szeptem"</th>
+                    <th class="table__header" scope="row">"Szeptem"</th>
                     <td class="table__cell">Becca Fitzpatrick</td>
                     <td class="table__cell">2009</td>
                     <td class="table__cell">2010</td>
@@ -102,19 +99,22 @@
                 </tr>
 
                 <tr class="table__row">
-                    <th class="table__cell table__header" scope="row">"Igrzyska Śmierci"</th>
+                    <th class="table__header" scope="row">"Igrzyska Śmierci"</th>
                     <td class="table__cell">Suzanne Collins</td>
                     <td class="table__cell">2008</td>
                     <td class="table__cell">2009</td>
                     <td class="table__cell">"Igrzyska Śmierci"</td>
                 </tr>
             </table>
+            <p>
+                <a class="link__contact" href="kontakt/index.html">&#128073;&#128073;&#128073; Więcej o podanych
+                    tytułach
+                    &#128072;&#128072;&#128072;</a>
+            </p>
         </div>
-        <p>&#128073;&#128073;&#128073;<a class="section__nextPage--books" href="kontakt/index.html">Więcej o podanych
-                tytułach</a>&#128072;&#128072;&#128072;</p>
     </section>
     <section id="games" class="section section--games">
-        <img class="section__image--games" src="images/wiedzmin.jpg" alt="Wiedźmin 3: Dziki Gon" width="500px"
+        <img class="section__image--games" src="images/witcher.jpg" alt="Wiedźmin 3: Dziki Gon" width="500"
             style=float:right;>
         <h2>Moje ulubione gry komputerowe:</h2>
         <ul>
@@ -143,7 +143,7 @@
     </section>
     <section id="travels" class="section section--travels">
         <h2>Miejsca, które marzy mi się odwiedzić:</h2>
-        <button class="button">Włącz <span class=themeName>ciemny</span> motyw</button>
+        <button class="button js-button">Włącz <span class=js-themeName>ciemny</span> motyw</button>
         <ol class="section__list--travels">
             <li>Hiszpania</li>
             <li>Grecja</li>

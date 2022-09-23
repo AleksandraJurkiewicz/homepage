@@ -19,11 +19,15 @@
 
 .table__header {
     background-color: rgb(78, 208, 208);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 7px;
 }
 
 .table__caption {
     background-color: rgb(35, 153, 153);
+    border: 2px solid rgb(0, 0, 0);
     border-bottom: 0px;
+    padding: 7px;
 }
 
 .table__row:nth-child(even) {

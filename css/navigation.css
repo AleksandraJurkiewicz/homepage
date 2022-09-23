@@ -1,7 +1,9 @@
 .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     font-size: large;
-    box-sizing: border-box;
     border: 4px solid rgb(9, 66, 63);
     max-width: 900px;
     padding: 5px 0px;

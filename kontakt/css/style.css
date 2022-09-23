@@ -7,31 +7,44 @@ html {
 ::before {
     box-sizing: inherit;
 }
+
 .body {
     font-family: 'Arimo', sans-serif;
     font-size: 15px;
     max-width: 900px;
-
-    margin: auto;
+    width: fit-content;
+    margin: 0 auto;
     background-color: rgb(195, 227, 230);
-    
-    padding-bottom: 30px;
 }
 
 .article__header {
     text-align: center;
-    box-sizing: border-box;
 }
 
 .article {
     margin-bottom: 50px;
     line-height: 1.5;
-    box-sizing: border-box;
 }
 
-.goBack {
+.article__image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link {
     color: rgb(209, 244, 248);
     background-color: rgb(17, 53, 56);
     text-decoration: none;
     padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    border: 4px solid rgb(20, 66, 74);
+    padding: 3px;
+    text-align: center;
+    margin: auto;
+    font-size: medium;
 }

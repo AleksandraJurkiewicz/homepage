@@ -15,9 +15,18 @@ html {
 .body {
     font-family: 'Arimo', sans-serif;
     width: fit-content;
-    margin: auto;
+    margin: 0 auto;
     background-color: rgb(195, 227, 230);
     max-width: 900px;
+}
+
+.link__contact {
+    color: rgb(209, 244, 248);
+    background-color: rgb(17, 53, 56);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .link {
@@ -60,7 +69,7 @@ html {
 
 .dark {
     color: rgb(0, 0, 0);
-    background-color: rgb(20, 108, 108);
+    background-color: rgb(25, 155, 155);
 }
 
 .header__image {

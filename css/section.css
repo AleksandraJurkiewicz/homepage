@@ -9,17 +9,6 @@
     padding-top: 20px;
 }
 
-.section__nextPage--books {
-    color: rgb(209, 244, 248);
-    background-color: rgb(17, 53, 56);
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.section__image--games {
-    margin-bottom: 5px;
-}
-
 .section__list--travels {
     list-style-type: upper-roman;
 }
