@@ -12,3 +12,8 @@
 .section__list--travels {
     list-style-type: upper-roman;
 }
+
+.section__image {
+    float: right;
+    width: clamp(300px, 35vw, 500px);
+}
